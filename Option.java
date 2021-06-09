@@ -32,7 +32,7 @@ public class Option
 	public String toString()
 	{
 		String output = "Is Used?: " + isUsed +
-										"Option: " + opt;
+										" Option: " + opt;
 		return output;
 	}
 }
