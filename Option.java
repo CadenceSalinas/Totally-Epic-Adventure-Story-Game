@@ -3,7 +3,17 @@ public class Option
 	private boolean isUsed;
 	private int opt;
 
+	public Option()
+	{
+		this.isUsed = false;
+		this.opt = 0;
+	}
 	public Option(boolean isUsed, int opt)
+	{
+		this.isUsed = false;
+		this.opt = 0;
+	}
+	public Option(int opt)
 	{
 		this.isUsed = false;
 		this.opt = 0;
