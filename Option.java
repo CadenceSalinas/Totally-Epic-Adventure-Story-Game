@@ -13,11 +13,6 @@ public class Option
 		this.isUsed = false;
 		this.opt = 0;
 	}
-	public Option(int opt)
-	{
-		this.isUsed = false;
-		this.opt = 0;
-	}
 
 	//getters and setters
 	public boolean getUsed()
